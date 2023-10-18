@@ -28,3 +28,28 @@ let myObj={
 const myFunction = function(){
     console.log("Hello world");
 }
+
+
+console.log(anotherId);
+
+
+// ******************************
+// stack(primitive) ,Heap(Non-Primitive)
+// in stack get copy of variable but in heap get refrence of the objects
+let myYouTube= "nisha"
+let anotherName = myYouTube
+anotherName="mehta"
+console.log(myYouTube);
+console.log(anotherName);
+
+
+let user ={
+    name:"nisha",
+    agw:67,
+    subject:"copy"
+}
+
+let userTwo = user;
+userTwo.name="monal"
+console.log(user);
+console.log(userTwo);
